@@ -103,7 +103,7 @@
 		}
 	};
 	// 实现init对象继承自jquery.prototype
-	init.prototype = jquery.fn;
+	init.prototype = jquery.fn;  
 	// 方便用户扩展jquery函数和原型
 	// 使用了拷贝继承方式
 	// jquery.extend = jquery.fn.extend = function(source, target) {
